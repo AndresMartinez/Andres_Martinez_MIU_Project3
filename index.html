@@ -17,7 +17,7 @@
 	<!-- StyleSheets under here -->
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.css" />
 	<link rel="stylesheet" href="css/style.css"
-	<link rel="stylesheet" href="jquery.ui.datepicker.mobile.css" />
+	
 	
 	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
 	<script src="js/libs/modernizr.custom.min.js"></script>
@@ -407,7 +407,7 @@
 	                          
 	                          <div data-role="fieldcontain"> 
 			                    <label for="name"> Name: </label> 
-			                    <input type="text" name="name" id="name"/>
+			                    <input type="text" name="name" id="name" class="required"/>
 			                  </div>
 
 	                           
@@ -420,7 +420,7 @@
 		              
 		               <div data-role="fieldcontain">
                                 <label for="reps">How many reps are you doing?</label>
-                                <select name="reps" id="reps" >
+                                <select name="reps" id="reps" class="required" >
                                       <option data-placeholder="true">Please Select One</option>
                                       <option value="2">2</option>
                                       <option value="4">4</option>

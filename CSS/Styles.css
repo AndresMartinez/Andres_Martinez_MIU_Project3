@@ -1,6 +1,9 @@
-/*Andres Marinez Project 4
-VFW 8-11-11   CSS */
+/* custom styles */
 
+
+label.error{display: block ; margin: 10px 0;color: #cc000;}
+
+/*
 
 html{
 background: blue;
@@ -126,6 +129,7 @@ height: 20px ;
 
 }
 
+*/
     
 /* margin -----
 padding ------

@@ -1,12 +1,31 @@
-// javsscript for project 4
-// Andres Martinez
-// visual frame works 8-11
+var forIform = function (data){
+   // uses form data here;
+   console.log(data;)
+};
+
+
+$(document).ready(function() { 
+
+       var iform = $('#Form');
+       
+       iform.validate({
+          invalidHandler: function(form ,validator ){},
+          submitHandler: function(){
+             var data = iform.serializeArray()
+          forIform(data);
+          }
+       });
+
+});
+
+
 
 /* local Storage
    - localStorage.setItem('storedName', varName)
    - localStorage.getitem('storedName')
    - localStorage.clear()
-*/
+
+
 var regExp=/\b[0-9]{2}-[0-9]{2}-[0-9]{2}\b/;
 function storeItems(id){
     var pworkout = document.getElementById("pworkout").value;
@@ -220,7 +239,7 @@ function deleteItems(id){
 
 
 
-
+*/
 
 
 
